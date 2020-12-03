@@ -70,18 +70,18 @@
  * @property {Array} tabs tabs 列表
  * @property {String} bgColor = '#fff' 背景颜色
  * @property {String} color = '#333' 默认颜色
- * @property {String} activeColor = '#2979ff' 选中文字颜色
+ * @property {String} activeColor = '#d81e06' 选中文字颜色
  * @property {String} fontSize = '28rpx' 默认文字大小
  * @property {String} activeFontSize = '28rpx' 选中文字大小
  * @property {Boolean} bold = [true | false] 选中文字是否加粗
  * @property {Boolean} scroll = [true | false] 是否滚动
  * @property {String} height = '60rpx' tab 的高度
  * @property {String} lineHeight = '10rpx' 下划线的高度
- * @property {String} lineColor = '#2979ff' 下划线的颜色
+ * @property {String} lineColor = '#d81e06' 下划线的颜色
  * @property {Number} lineScale = 0.5 下划线的宽度缩放比例
  * @property {String} lineRadius = '10rpx' 下划线圆角
  * @property {Boolean} pills = [true | false] 是否胶囊样式
- * @property {String} pillsColor = '#2979ff' 胶囊背景色
+ * @property {String} pillsColor = '#d81e06' 胶囊背景色
  * @property {String} pillsBorderRadius = '10rpx' 胶囊圆角大小
  * @property {String} field 如果是对象，显示的键名
  * @property {Boolean} fixed = [true | false] 是否固定
@@ -115,7 +115,7 @@ export default {
     },
     activeColor: {
       type: String,
-      default: '#2979ff'
+      default: '#d81e06'
     },
     fontSize: {
       type: String,
@@ -139,7 +139,7 @@ export default {
     },
     lineColor: {
       type: String,
-      default: '#2979ff'
+      default: '#d81e06'
     },
     lineHeight: {
       type: String,
@@ -159,7 +159,7 @@ export default {
     },
     pillsColor: {
       type: String,
-      default: '#2979ff'
+      default: '#d81e06'
     },
     pillsBorderRadius: {
       type: String,

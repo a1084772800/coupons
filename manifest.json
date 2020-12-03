@@ -1,5 +1,5 @@
 {
-    "name" : "外卖专享优惠",
+    "name" : "优惠管家",
     "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
@@ -42,7 +42,7 @@
     },
     "quickapp" : {},
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wx7310f234719c1a10",
         "setting" : {
             "urlCheck" : true
         }
