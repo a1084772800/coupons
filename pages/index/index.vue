@@ -22,6 +22,15 @@
 					<image :src="v.bannerPic" mode="widthFix" />
 				</view>
 			</view>
+			<view v-if="couponList.length == 0" style="height: 100vh;text-align: center;background: rgb(0, 0, 31);">
+				<image src="../../static/3530889.gif" mode="widthFix"></image>
+				<view style="margin-top: 20px;color: white;">你发现了这里没有东西    o(〃'▽'〃)o</view>
+				<view style="margin-top: 20px;color: white;">因为懒</view>
+				<view style="margin-top: 20px;color: white;">没有时间⏰去做😅</view>
+				<view style="margin-top: 20px;color: white;">不过我会加油的撒！ (ง •_•)ง</view>
+				<view style="margin-top: 20px;color: white;">fighting！</view>
+				<view style="margin-top: 20px;color: white;">怀挺！怀挺！怀挺！</view>
+			</view>
 		</view>
 	</view>
 </template>
@@ -58,7 +67,7 @@
 					},
 					{
 						icon: '/static/11.png',
-						text: '双十一',
+						text: '淘宝/天猫',
 						tabId: 5,
 					},
 					{
